@@ -74,8 +74,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 872415231
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.2}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -168,8 +168,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 57.91742, y: 64.210625}
-  m_SizeDelta: {x: 78.0803, y: 15.5284}
+  m_AnchoredPosition: {x: 73.19614, y: 52.037476}
+  m_SizeDelta: {x: 99.4919, y: 18.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &339212415682127382
 CanvasRenderer:
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.85
+  m_fontSize: 16.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -429,6 +429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 787775992803879532}
   - component: {fileID: 1568525990355552991}
+  - component: {fileID: 2384515576255007288}
   m_Layer: 5
   m_Name: SoundToggle
   m_TagString: Untagged
@@ -453,8 +454,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 57.91742, y: 42.8587}
-  m_SizeDelta: {x: 31.2322, y: 15.5284}
+  m_AnchoredPosition: {x: 73.19614, y: 26.325}
+  m_SizeDelta: {x: 39.7968, y: 18.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1568525990355552991
 MonoBehaviour:
@@ -475,7 +476,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -498,12 +499,25 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 103168009105256231}
   toggleTransition: 1
-  graphic: {fileID: 4421782234836743823}
+  graphic: {fileID: 0}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
+--- !u!114 &2384515576255007288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265003151830628251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8108989558e8d304f9178fb3ac44716d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 2994982749942697203}
 --- !u!1 &1440394649457079252
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,8 +628,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -113.859344, y: 64.210625}
-  m_SizeDelta: {x: 140.5446, y: 15.5284}
+  m_AnchoredPosition: {x: -145.68599, y: 52.037476}
+  m_SizeDelta: {x: 179.0853, y: 18.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6915376178431448693
 CanvasRenderer:
@@ -645,7 +659,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: STERING CONTROL
+  m_text: STEERING CONTROL
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -672,7 +686,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.85
+  m_fontSize: 16.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -727,7 +741,7 @@ GameObject:
   - component: {fileID: 7631213737164365047}
   - component: {fileID: 1829871512675712951}
   m_Layer: 5
-  m_Name: TiltBT
+  m_Name: Tilt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -750,8 +764,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -39.683014, y: 9.8606}
-  m_SizeDelta: {x: 62.4643, y: 69.8785}
+  m_AnchoredPosition: {x: -51.1688, y: -13.4125}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7185009685982547798
 CanvasRenderer:
@@ -774,15 +788,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 8d2885335dd38484f8ccf8464e0ae917, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -834,7 +848,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7631213737164365047}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6484148457837245327}
+        m_TargetAssemblyTypeName: ControlsSetting, Assembly-CSharp
+        m_MethodName: SteeringControl
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2552025577496112496}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2780015500272388743
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,7 +874,7 @@ GameObject:
   - component: {fileID: 3960240688952112688}
   - component: {fileID: 6153966499668402371}
   m_Layer: 5
-  m_Name: SteeringBT
+  m_Name: Steering
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -871,8 +897,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -188.0357, y: 9.8606}
-  m_SizeDelta: {x: 62.4643, y: 69.8785}
+  m_AnchoredPosition: {x: -240.2033, y: -13.4125}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1620236627516672026
 CanvasRenderer:
@@ -895,15 +921,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3c44ccc6ec209934287dba6aef5751ad, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -955,7 +981,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3960240688952112688}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6484148457837245327}
+        m_TargetAssemblyTypeName: ControlsSetting, Assembly-CSharp
+        m_MethodName: SteeringControl
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2780015500272388743}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2791645174005110238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,8 +1068,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 872415231
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.2}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1084,7 +1122,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 67.220856, z: 0, w: -47.027}
+  m_margin: {x: -18.743746, y: 67.220856, z: -17.891747, w: -47.027}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1103,7 +1141,7 @@ GameObject:
   - component: {fileID: 6486619351167747362}
   - component: {fileID: 1116880279362159481}
   m_Layer: 5
-  m_Name: TouchPadBT
+  m_Name: TouchPad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1126,8 +1164,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -113.859344, y: 9.8606}
-  m_SizeDelta: {x: 62.4643, y: 69.8785}
+  m_AnchoredPosition: {x: -145.68599, y: -13.4125}
+  m_SizeDelta: {x: 70, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5015945763857633203
 CanvasRenderer:
@@ -1150,15 +1188,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dd3c6eaf46151fb47aa2b80d2d133f2b, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1210,7 +1248,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6486619351167747362}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6484148457837245327}
+        m_TargetAssemblyTypeName: ControlsSetting, Assembly-CSharp
+        m_MethodName: SteeringControl
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3730811604740524313}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4522572088457215684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,8 +1335,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 872415231
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.2}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1419,8 +1469,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 872415231
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.2}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1489,6 +1539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106909650258936242}
   - component: {fileID: 637064862255309861}
+  - component: {fileID: 6323806021745780782}
   m_Layer: 5
   m_Name: MusicToggle
   m_TagString: Untagged
@@ -1513,8 +1564,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 57.91742, y: -23.137604}
-  m_SizeDelta: {x: 39.0402, y: 15.5284}
+  m_AnchoredPosition: {x: 73.19614, y: -53.149994}
+  m_SizeDelta: {x: 49.7459, y: 18.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &637064862255309861
 MonoBehaviour:
@@ -1558,12 +1609,25 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 7221259426715476015}
   toggleTransition: 1
-  graphic: {fileID: 7356382201426906237}
+  graphic: {fileID: 0}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
+--- !u!114 &6323806021745780782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6255798145214297254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8108989558e8d304f9178fb3ac44716d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1113115375504690448}
 --- !u!1 &6592930438959883618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,13 +1653,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6592930438959883618}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3563741155252108239}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1638,8 +1702,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 872415231
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.2}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1732,8 +1796,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 57.91742, y: -1.7858}
-  m_SizeDelta: {x: 78.0803, y: 15.5284}
+  m_AnchoredPosition: {x: 73.19614, y: -27.4375}
+  m_SizeDelta: {x: 99.4919, y: 18.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1467635617710832941
 CanvasRenderer:
@@ -1790,7 +1854,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.85
+  m_fontSize: 16.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1843,6 +1907,7 @@ GameObject:
   - component: {fileID: 3424783007255620911}
   - component: {fileID: 6325739781737251760}
   - component: {fileID: 7907346718339705855}
+  - component: {fileID: 6484148457837245327}
   m_Layer: 5
   m_Name: SubsettingControlPanal
   m_TagString: Untagged
@@ -1859,7 +1924,7 @@ RectTransform:
   m_GameObject: {fileID: 6946916944800943357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.71, y: 0.71, z: 0.71}
   m_Children:
   - {fileID: 6983769307774105630}
   - {fileID: 6905812045818501379}
@@ -1918,6 +1983,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6484148457837245327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946916944800943357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344d26e479454084589879a0d17065fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIControl: {fileID: 0}
+  SoundToggle: {fileID: 1568525990355552991}
+  MusicToggle: {fileID: 637064862255309861}
 --- !u!1 &7766772920728592745
 GameObject:
   m_ObjectHideFlags: 0
@@ -1931,7 +2011,7 @@ GameObject:
   - component: {fileID: 8712395122041593974}
   - component: {fileID: 4478294454174235577}
   m_Layer: 5
-  m_Name: RightSideBT
+  m_Name: RightSide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1944,7 +2024,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7766772920728592745}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1954,8 +2034,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 194.55804, y: 9.3672}
-  m_SizeDelta: {x: 54.6563, y: 70.8654}
+  m_AnchoredPosition: {x: 247.30692, y: -14.006708}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4458962121245768016
 CanvasRenderer:
@@ -1978,15 +2058,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 0c4b67fb15e0b7741bc30dfc222413dc, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2038,7 +2118,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8712395122041593974}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6484148457837245327}
+        m_TargetAssemblyTypeName: ControlsSetting, Assembly-CSharp
+        m_MethodName: Hand
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7766772920728592745}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8083101671372195606
 GameObject:
   m_ObjectHideFlags: 0
@@ -2073,8 +2165,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 163.32588, y: 64.210625}
-  m_SizeDelta: {x: 46.8482, y: 15.5284}
+  m_AnchoredPosition: {x: 207.51013, y: 52.037476}
+  m_SizeDelta: {x: 59.6951, y: 18.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &928311050356038214
 CanvasRenderer:
@@ -2131,7 +2223,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.85
+  m_fontSize: 16.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2261,7 +2353,7 @@ GameObject:
   - component: {fileID: 7958879142441776107}
   - component: {fileID: 3550415410049095891}
   m_Layer: 5
-  m_Name: LeftSideBT
+  m_Name: LeftSide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2274,18 +2366,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8166536638516998411}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3938469986555633043}
   m_Father: {fileID: 3424783007255620911}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 135.9978, y: 9.3672}
-  m_SizeDelta: {x: 54.6563, y: 70.8654}
+  m_AnchoredPosition: {x: 172.68796, y: -14.006708}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2728454530303531945
 CanvasRenderer:
@@ -2308,15 +2400,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 0c4b67fb15e0b7741bc30dfc222413dc, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2368,4 +2460,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7958879142441776107}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6484148457837245327}
+        m_TargetAssemblyTypeName: ControlsSetting, Assembly-CSharp
+        m_MethodName: Hand
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8166536638516998411}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ControlsSetting : MonoBehaviour
 {
@@ -29,13 +30,23 @@ public class ControlsSetting : MonoBehaviour
         MusicToggle.isOn = Controls.MusicOn;
     }
 
+    private void Update()
+    {
+        Controls.SoundOn = SoundToggle.isOn;
+        Controls.MusicOn = MusicToggle.isOn;
+    }
+
     public void SteeringControl(GameObject sc)
     {
         if (SteeringSelected != sc)
         {
-            if(SteeringSelected!=null)
-                SteeringSelected.GetComponent<Image>().color = new Color(1,1,1,.5f);
+            if (SteeringSelected != null)
+            {
+                SteeringSelected.GetComponent<Image>().color = new Color(1, 1, 1, .2f);
+                SteeringSelected.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(1, 1, 1, .2f);
+            }
             sc.GetComponent<Image>().color = new Color(1, 1, 1, 1);
+            sc.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(1, 1, 1, 1);
             SteeringSelected = sc;
             Controls.SteeringControl = sc.name;
             UpdateSetting();
@@ -46,16 +57,20 @@ public class ControlsSetting : MonoBehaviour
     {
         if (HandSelected != hand)
         {
-            if(HandSelected!=null)
+            if (HandSelected != null)
+            {
                 HandSelected.GetComponent<Image>().color = new Color(1, 1, 1, .5f);
+                HandSelected.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(1, 1, 1, .2f);
+            }
             hand.GetComponent<Image>().color = new Color(1, 1, 1, 1);
+            hand.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(1, 1, 1, 1);
             HandSelected = hand;
             Controls.Hand = hand.name;
             UpdateSetting();
         }
     }
 
-    public void SoundOn(bool SoundToggle)
+    /*public void SoundOn(bool SoundToggle)
     {
         Controls.SoundOn = SoundToggle;
         UpdateSetting();
@@ -65,7 +80,7 @@ public class ControlsSetting : MonoBehaviour
     {
         Controls.MusicOn = MusicToggle;
         UpdateSetting();
-    }
+    }*/
 
     public void UpdateSetting()
     {

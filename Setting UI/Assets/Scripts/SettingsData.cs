@@ -30,13 +30,13 @@ public class Languages
 public class Graphics
 {
     public string Presets="Automatic";
-    public int Resulation;
-    public string Shadow="Low";
-    public int ShadowDistance;
-    public int DrawDistance;
-    public string AntiAlasing;
-    public bool V_sync;
-    public bool Reflection;
+    public float Resulation=0f;
+    public string Shadow="Off";
+    public float ShadowDistance=0f;
+    public float DrawDistance=0f;
+    public string AntiAlasing="Off";
+    public string V_sync="Off";
+    public string Reflection="Off";
 }
 
 [Serializable]

@@ -29,7 +29,7 @@ public class LanguageSettings : MonoBehaviour
             if(LanguageSelected!=null)
             {
                 LanguageSelected.GetComponent<Image>().color = new Color(0.298f, 0.369f, 0.549f, 1.000f);
-                LanguageSelected.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.white;
+                LanguageSelected.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(1, 1, 1, .6f);
             }
             language.GetComponent<Image>().color = Color.white;
             language.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;

@@ -9,7 +9,7 @@ public class JsonController : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(GetFilePath(FileName));
+        //Debug.Log(GetFilePath(FileName));
     }
 
     public void Save(SettingsData data)

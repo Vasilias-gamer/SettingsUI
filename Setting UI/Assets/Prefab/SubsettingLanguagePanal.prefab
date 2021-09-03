@@ -74,8 +74,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -208,8 +208,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 5112264624382091756}
   - component: {fileID: 5112264624382091757}
   m_Layer: 5
-  m_Name: DanishBT
+  m_Name: Danish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -304,8 +304,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210.72968, y: 10.4766}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: 210.72968, y: 19.5764}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264624382091755
 CanvasRenderer:
@@ -388,7 +388,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264624382091756}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264624382091759}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264624740468583
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,7 +414,7 @@ GameObject:
   - component: {fileID: 5112264624740468580}
   - component: {fileID: 5112264624740468581}
   m_Layer: 5
-  m_Name: GermanBT
+  m_Name: German
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -425,8 +437,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -204.96574, y: 10.4766}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: -204.96574, y: 19.5764}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264624740468579
 CanvasRenderer:
@@ -509,7 +521,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264624740468580}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264624740468583}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264624929296012
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,8 +608,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -657,7 +681,7 @@ GameObject:
   - component: {fileID: 5112264625022911596}
   - component: {fileID: 5112264625022911597}
   m_Layer: 5
-  m_Name: FrenchBT
+  m_Name: French
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -680,8 +704,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72.16454, y: 54.7246}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: 72.16454, y: 70.72166}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264625022911595
 CanvasRenderer:
@@ -764,7 +788,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264625022911596}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264625022911599}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264625023177926
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,8 +835,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.8821, y: 92.5758}
-  m_SizeDelta: {x: 260.4295, y: 31.6058}
+  m_AnchoredPosition: {x: 2.8821, y: 114.47297}
+  m_SizeDelta: {x: 260.4295, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264625023177923
 CanvasRenderer:
@@ -910,13 +946,14 @@ GameObject:
   - component: {fileID: 5112264625026119885}
   - component: {fileID: 5112264625026119883}
   - component: {fileID: 5112264625026119884}
+  - component: {fileID: 7685495726395345902}
   m_Layer: 5
   m_Name: SubsettingLanguagePanal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5112264625026119885
 RectTransform:
   m_ObjectHideFlags: 0
@@ -926,7 +963,7 @@ RectTransform:
   m_GameObject: {fileID: 5112264625026119886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.71, y: 0.71, z: 0.71}
   m_Children:
   - {fileID: 5112264625023177925}
   - {fileID: 5112264626337219726}
@@ -991,6 +1028,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7685495726395345902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112264625026119886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8362127f9e63a44a951a8e22459fb24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIControl: {fileID: 0}
 --- !u!1 &5112264625041586350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,7 +1054,7 @@ GameObject:
   - component: {fileID: 5112264625041586347}
   - component: {fileID: 5112264625041586348}
   m_Layer: 5
-  m_Name: ArabicBT
+  m_Name: Arabic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1027,8 +1077,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72.16454, y: -78.019554}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: 72.16454, y: -82.71465}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264625041586346
 CanvasRenderer:
@@ -1111,7 +1161,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264625041586347}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264625041586350}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264625067923939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,7 +1187,7 @@ GameObject:
   - component: {fileID: 5112264625067923936}
   - component: {fileID: 5112264625067923937}
   m_Layer: 5
-  m_Name: ChineseBT
+  m_Name: Chinese
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1148,8 +1210,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210.72968, y: 54.7246}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: 210.72968, y: 70.721664}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264625067923951
 CanvasRenderer:
@@ -1232,7 +1294,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264625067923936}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264625067923939}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264625135709500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,8 +1381,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1441,8 +1515,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1514,7 +1588,7 @@ GameObject:
   - component: {fileID: 5112264625251833120}
   - component: {fileID: 5112264625251833121}
   m_Layer: 5
-  m_Name: EspanolBT
+  m_Name: Espanol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1537,8 +1611,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -204.96574, y: -33.771576}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: -204.96574, y: -31.5692}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264625251833135
 CanvasRenderer:
@@ -1621,7 +1695,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264625251833120}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264625251833123}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264625264649011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,8 +1782,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1830,8 +1916,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1964,8 +2050,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2098,8 +2184,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2171,7 +2257,7 @@ GameObject:
   - component: {fileID: 5112264625523192189}
   - component: {fileID: 5112264625523192190}
   m_Layer: 5
-  m_Name: KoreanBT
+  m_Name: Korean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2194,8 +2280,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -204.96574, y: -78.019554}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: -204.96574, y: -82.71465}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264625523192188
 CanvasRenderer:
@@ -2278,7 +2364,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264625523192189}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264625523192176}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264625532161723
 GameObject:
   m_ObjectHideFlags: 0
@@ -2353,8 +2451,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2487,8 +2585,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2621,8 +2719,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2694,7 +2792,7 @@ GameObject:
   - component: {fileID: 5112264625791462495}
   - component: {fileID: 5112264625791462480}
   m_Layer: 5
-  m_Name: ItalianBT
+  m_Name: Italian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2717,8 +2815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.4006, y: 10.4766}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: -66.4006, y: 19.5764}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264625791462494
 CanvasRenderer:
@@ -2801,7 +2899,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264625791462495}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264625791462482}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264625846745716
 GameObject:
   m_ObjectHideFlags: 0
@@ -2815,7 +2925,7 @@ GameObject:
   - component: {fileID: 5112264625846745713}
   - component: {fileID: 5112264625846745714}
   m_Layer: 5
-  m_Name: turkishBT
+  m_Name: turkish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2838,8 +2948,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210.72968, y: -78.019554}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: 210.72968, y: -82.71465}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264625846745712
 CanvasRenderer:
@@ -2922,7 +3032,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264625846745713}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264625846745716}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264625848782766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2936,7 +3058,7 @@ GameObject:
   - component: {fileID: 5112264625848782763}
   - component: {fileID: 5112264625848782764}
   m_Layer: 5
-  m_Name: JapaneseBT
+  m_Name: Japanese
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2959,8 +3081,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72.16454, y: -33.771576}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: 72.16454, y: -31.5692}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264625848782762
 CanvasRenderer:
@@ -3043,7 +3165,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264625848782763}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264625848782766}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264625875128281
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,7 +3191,7 @@ GameObject:
   - component: {fileID: 5112264625875128230}
   - component: {fileID: 5112264625875128231}
   m_Layer: 5
-  m_Name: SvensikaBT
+  m_Name: Svensika
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3080,8 +3214,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.4006, y: -33.771576}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: -66.4006, y: -31.5692}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264625875128229
 CanvasRenderer:
@@ -3164,7 +3298,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264625875128230}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264625875128281}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264626052111591
 GameObject:
   m_ObjectHideFlags: 0
@@ -3239,8 +3385,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3373,8 +3519,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3507,8 +3653,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3580,7 +3726,7 @@ GameObject:
   - component: {fileID: 5112264626138511373}
   - component: {fileID: 5112264626138511374}
   m_Layer: 5
-  m_Name: PotugueseBT
+  m_Name: Potuguese
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3603,8 +3749,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72.16454, y: 10.4766}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: 72.16454, y: 19.5764}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264626138511372
 CanvasRenderer:
@@ -3687,7 +3833,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264626138511373}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264626138511360}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264626224956927
 GameObject:
   m_ObjectHideFlags: 0
@@ -3762,8 +3920,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2533359615
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3835,7 +3993,7 @@ GameObject:
   - component: {fileID: 5112264626314052627}
   - component: {fileID: 5112264626314052628}
   m_Layer: 5
-  m_Name: EnglishBT
+  m_Name: English
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3858,8 +4016,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.4006, y: 54.7246}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: -66.4006, y: 70.721664}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264626314052626
 CanvasRenderer:
@@ -3942,7 +4100,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264626314052627}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264626314052630}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264626337219727
 GameObject:
   m_ObjectHideFlags: 0
@@ -3956,7 +4126,7 @@ GameObject:
   - component: {fileID: 5112264626337219724}
   - component: {fileID: 5112264626337219725}
   m_Layer: 5
-  m_Name: DutchBT
+  m_Name: Dutch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3979,8 +4149,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -204.96574, y: 54.7246}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: -204.96574, y: 70.721664}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264626337219723
 CanvasRenderer:
@@ -4063,7 +4233,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264626337219724}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264626337219727}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264626355990879
 GameObject:
   m_ObjectHideFlags: 0
@@ -4077,7 +4259,7 @@ GameObject:
   - component: {fileID: 5112264626355990876}
   - component: {fileID: 5112264626355990877}
   m_Layer: 5
-  m_Name: RussianBT
+  m_Name: Russian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4100,8 +4282,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.4006, y: -78.019554}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: -66.4006, y: -82.71465}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264626355990875
 CanvasRenderer:
@@ -4184,7 +4366,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264626355990876}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264626355990879}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5112264626372064073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4198,7 +4392,7 @@ GameObject:
   - component: {fileID: 5112264626372064086}
   - component: {fileID: 5112264626372064087}
   m_Layer: 5
-  m_Name: VietnameseBT
+  m_Name: Vietnamese
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4221,8 +4415,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210.72968, y: -33.771576}
-  m_SizeDelta: {x: 123.9792, y: 31.6058}
+  m_AnchoredPosition: {x: 210.72968, y: -31.5692}
+  m_SizeDelta: {x: 123.9792, y: 36.5325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112264626372064085
 CanvasRenderer:
@@ -4305,4 +4499,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5112264626372064086}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7685495726395345902}
+        m_TargetAssemblyTypeName: LanguageSettings, Assembly-CSharp
+        m_MethodName: ChooseLanguage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 5112264626372064073}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
