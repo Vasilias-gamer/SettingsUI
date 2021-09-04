@@ -6,7 +6,7 @@ using UnityEngine;
 public class SettingsData
 {
     public Controls Contols = new Controls();
-    public Languages Languages = new Languages();
+    public Language Language = new Language();
     public Graphics Graphics = new Graphics();
     public Privicy Privicy = new Privicy();
 }
@@ -21,7 +21,7 @@ public class Controls
 }
 
 [Serializable]
-public class Languages
+public class Language
 {
     public string LanguageSelected = "English";
 }

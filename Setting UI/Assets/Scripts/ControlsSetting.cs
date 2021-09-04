@@ -8,8 +8,12 @@ public class ControlsSetting : MonoBehaviour
 {
     public UIControl UIControl;
     private Controls Controls;
+
+    public GameObject[] SteeringControls;
     private GameObject SteeringSelected;
+    public GameObject[] Hands;
     private GameObject HandSelected;
+
     [SerializeField]
     private Toggle SoundToggle;
     [SerializeField]
@@ -24,8 +28,15 @@ public class ControlsSetting : MonoBehaviour
     private void Start()
     {
         Controls = UIControl.data.Contols;
-        SteeringControl(transform.Find(Controls.SteeringControl).gameObject);
-        Hand(transform.Find(Controls.Hand).gameObject);
+        foreach(GameObject st in SteeringControls)
+        {
+            if (st.name.Equals(Controls.SteeringControl))
+            {
+                SteeringControl(st);
+                break;
+            }
+        }
+        Hand(Hands[0].name.Equals(Controls.Hand) ? Hands[0] : Hands[1]);
         SoundToggle.isOn = Controls.SoundOn;
         MusicToggle.isOn = Controls.MusicOn;
     }
@@ -69,18 +80,6 @@ public class ControlsSetting : MonoBehaviour
             UpdateSetting();
         }
     }
-
-    /*public void SoundOn(bool SoundToggle)
-    {
-        Controls.SoundOn = SoundToggle;
-        UpdateSetting();
-    }
-
-    public void MusicOn(bool MusicToggle)
-    {
-        Controls.MusicOn = MusicToggle;
-        UpdateSetting();
-    }*/
 
     public void UpdateSetting()
     {

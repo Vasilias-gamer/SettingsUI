@@ -6,12 +6,7 @@ using UnityEngine;
 public class JsonController : MonoBehaviour
 {
     public string FileName = "setting.txt";
-
-    private void Start()
-    {
-        //Debug.Log(GetFilePath(FileName));
-    }
-
+    
     public void Save(SettingsData data)
     {
         string json = JsonUtility.ToJson(data);

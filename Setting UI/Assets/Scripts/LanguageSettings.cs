@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -7,7 +5,8 @@ using TMPro;
 public class LanguageSettings : MonoBehaviour
 {
     public UIControl UIControl;
-    private Languages Languages;
+    private Language Language;
+    public GameObject[] Languages;
     private GameObject LanguageSelected;
 
     private void Awake()
@@ -18,8 +17,16 @@ public class LanguageSettings : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Languages = UIControl.data.Languages;
-        ChooseLanguage(transform.Find(Languages.LanguageSelected).gameObject);
+        Language = UIControl.data.Language;
+        foreach (GameObject language in Languages)
+        {
+            if (language.name.Equals(Language.LanguageSelected))
+            {
+                ChooseLanguage(language);
+                break;
+            }
+        }
+        ChooseLanguage(transform.Find(Language.LanguageSelected).gameObject);
     }
 
     public void ChooseLanguage(GameObject language)
@@ -34,8 +41,8 @@ public class LanguageSettings : MonoBehaviour
             language.GetComponent<Image>().color = Color.white;
             language.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;
             LanguageSelected = language;
-            Languages.LanguageSelected = language.name;
-            UIControl.data.Languages = Languages;
+            Language.LanguageSelected = language.name;
+            UIControl.data.Language = Language;
         }
     }
 }

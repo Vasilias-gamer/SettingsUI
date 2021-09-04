@@ -11,14 +11,14 @@ public class GraphicsSettings : MonoBehaviour
     private Graphics Graphics;
 
     [SerializeField]
-    private Transform Presets;
+    private Transform[] Presets;
     private GameObject PresetsSelected;
 
     [SerializeField]
     private Slider Resolution;
 
     [SerializeField]
-    private Transform Shadows;
+    private Transform[] Shadows;
     private GameObject ShadowSelected;
 
     [SerializeField]
@@ -28,15 +28,15 @@ public class GraphicsSettings : MonoBehaviour
     private Slider DrawDistance;
 
     [SerializeField]
-    private Transform AntiAlasings;
+    private Transform[] AntiAlasings;
     private GameObject AntiAlasingSelected;
 
     [SerializeField]
-    private Transform V_syncs;
+    private Transform[] V_syncs;
     private GameObject V_syncsSelected;
 
     [SerializeField]
-    private Transform Reflections;
+    private Transform[] Reflections;
     private GameObject ReflectionsSelected;
 
     private void Awake()
@@ -53,15 +53,27 @@ public class GraphicsSettings : MonoBehaviour
     {
         Graphics = UIControl.data.Graphics;
 
-        SelectPreset(Presets.Find(Graphics.Presets).gameObject);
-        SelectShadow(Shadows.Find(Graphics.Shadow).gameObject);
-        SelectAntiAlasing(AntiAlasings.Find(Graphics.AntiAlasing).gameObject);
-        SelectV_sync(V_syncs.Find(Graphics.V_sync).gameObject);
-        SelectReflections(Reflections.Find(Graphics.Reflection).gameObject);
+        SelectPreset(Find(Graphics.Presets,Presets).gameObject);
+        SelectShadow(Find(Graphics.Shadow,Shadows).gameObject);
+        SelectAntiAlasing(Find(Graphics.AntiAlasing,AntiAlasings).gameObject);
+        SelectV_sync(Find(Graphics.V_sync,V_syncs).gameObject);
+        SelectReflections(Find(Graphics.Reflection,Reflections).gameObject);
 
         Resolution.value = Graphics.Resulation;
         ShadowDistance.value = Graphics.ShadowDistance;
         DrawDistance.value = Graphics.DrawDistance;
+    }
+
+    private Transform Find(string name,Transform[] list)
+    {
+        foreach (Transform item in list)
+        {
+            if (item.name.Equals(name))
+            {
+                return item;
+            }
+        }
+        return null;
     }
 
     private void Update()
@@ -69,6 +81,11 @@ public class GraphicsSettings : MonoBehaviour
         Graphics.Resulation = Resolution.value;
         Graphics.ShadowDistance = ShadowDistance.value;
         Graphics.DrawDistance = DrawDistance.value;
+    }
+
+    private void UpdateGraphics()
+    {
+        UIControl.data.Graphics = Graphics;
     }
 
     public void SelectPreset(GameObject preset)
@@ -84,7 +101,7 @@ public class GraphicsSettings : MonoBehaviour
             preset.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;
             PresetsSelected = preset;
             Graphics.Presets = preset.name;
-            UIControl.data.Graphics = Graphics;
+            UpdateGraphics();
         }
     }
 
@@ -101,7 +118,7 @@ public class GraphicsSettings : MonoBehaviour
             Shadow.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;
             ShadowSelected = Shadow;
             Graphics.Shadow = Shadow.name;
-            UIControl.data.Graphics = Graphics;
+            UpdateGraphics();
         }
     }
 
@@ -118,7 +135,7 @@ public class GraphicsSettings : MonoBehaviour
             AntiAlasing.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;
             AntiAlasingSelected = AntiAlasing;
             Graphics.AntiAlasing = AntiAlasing.name;
-            UIControl.data.Graphics = Graphics;
+            UpdateGraphics();
         }
     }
 
@@ -135,7 +152,7 @@ public class GraphicsSettings : MonoBehaviour
             V_sync.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;
             V_syncsSelected = V_sync;
             Graphics.V_sync = V_sync.name;
-            UIControl.data.Graphics = Graphics;
+            UpdateGraphics();
         }
     }
 
@@ -152,7 +169,7 @@ public class GraphicsSettings : MonoBehaviour
             Reflections.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = Color.black;
             ReflectionsSelected = Reflections;
             Graphics.Reflection = Reflections.name;
-            UIControl.data.Graphics = Graphics;
+            UpdateGraphics();
         }
     }
     

@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 5112264625026119884}
   - component: {fileID: 7685495726395345902}
   m_Layer: 5
-  m_Name: SubsettingLanguagePanal
+  m_Name: LanguagePanal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,6 +1041,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIControl: {fileID: 0}
+  Languages:
+  - {fileID: 5112264626337219727}
+  - {fileID: 5112264626314052630}
+  - {fileID: 5112264625022911599}
+  - {fileID: 5112264625067923939}
+  - {fileID: 5112264624740468583}
+  - {fileID: 5112264625791462482}
+  - {fileID: 5112264626138511360}
+  - {fileID: 5112264624382091759}
+  - {fileID: 5112264625251833123}
+  - {fileID: 5112264625875128281}
+  - {fileID: 5112264625848782766}
+  - {fileID: 5112264626372064073}
+  - {fileID: 5112264625523192176}
+  - {fileID: 5112264626355990879}
+  - {fileID: 5112264625041586350}
+  - {fileID: 5112264625846745716}
 --- !u!1 &5112264625041586350
 GameObject:
   m_ObjectHideFlags: 0

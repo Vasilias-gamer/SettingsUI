@@ -1909,7 +1909,7 @@ GameObject:
   - component: {fileID: 7907346718339705855}
   - component: {fileID: 6484148457837245327}
   m_Layer: 5
-  m_Name: SubsettingControlPanal
+  m_Name: ControlPanal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1996,6 +1996,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIControl: {fileID: 0}
+  SteeringControls:
+  - {fileID: 2780015500272388743}
+  - {fileID: 3730811604740524313}
+  - {fileID: 2552025577496112496}
+  Hands:
+  - {fileID: 8166536638516998411}
+  - {fileID: 7766772920728592745}
   SoundToggle: {fileID: 1568525990355552991}
   MusicToggle: {fileID: 637064862255309861}
 --- !u!1 &7766772920728592745

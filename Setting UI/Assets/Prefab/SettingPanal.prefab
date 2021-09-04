@@ -35,6 +35,10 @@ RectTransform:
   - {fileID: 1757235417704220450}
   - {fileID: 8612969728585729192}
   - {fileID: 1713212485226003620}
+  - {fileID: 1693825680527701501}
+  - {fileID: 1014724299975957034}
+  - {fileID: 567330670889741193}
+  - {fileID: 4543211102152218509}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -70,8 +74,8 @@ MonoBehaviour:
       SoundOn: 0
       MusicOn: 0
       Hand: 
-    Languages:
-      LanguageSelected: 
+    Language:
+      LanguageSelected: English
     Graphics:
       Presets: 
       Resulation: 0
@@ -84,7 +88,16 @@ MonoBehaviour:
     Privicy:
       PrivacyPolicy: 
       GDPRSettings: 
-  ControlPanal: {fileID: 6372171961149871151}
+  Panals:
+  - {fileID: 6372171961149871151}
+  - {fileID: 1014724299975957033}
+  - {fileID: 567330670889741192}
+  - {fileID: 4355983366076145625}
+  TabButtons:
+  - {fileID: 8924002607123684823}
+  - {fileID: 2852404130207517137}
+  - {fileID: 6264432477804273021}
+  - {fileID: 1541007405316804319}
 --- !u!1 &1266811268429943596
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,7 +263,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3570669359845472740}
-  - {fileID: 567330670889741193}
   m_Father: {fileID: 1101375030178928419}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -353,6 +365,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 735744080}
+        m_TargetAssemblyTypeName: UIControl, Assembly-CSharp
+        m_MethodName: UpdateButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1757235417704220450}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1866348392037624049
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +408,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 561740403484165307}
-  - {fileID: 4543211102152218509}
   m_Father: {fileID: 1101375030178928419}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -482,6 +505,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 4355983366076145625}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 735744080}
+        m_TargetAssemblyTypeName: UIControl, Assembly-CSharp
+        m_MethodName: UpdateButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8612969728585729192}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -652,7 +687,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2965609643831954550}
-  - {fileID: 1014724299975957034}
   m_Father: {fileID: 1101375030178928419}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -750,6 +784,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 1014724299975957033}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 735744080}
+        m_TargetAssemblyTypeName: UIControl, Assembly-CSharp
+        m_MethodName: UpdateButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 4835050564296741858}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1054,7 +1100,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6087643987904033353}
-  - {fileID: 1693825680527701501}
   m_Father: {fileID: 1101375030178928419}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1152,6 +1197,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 6372171961149871151}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 735744080}
+        m_TargetAssemblyTypeName: UIControl, Assembly-CSharp
+        m_MethodName: UpdateButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 931142051196910762}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1563,7 +1620,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 931142051196910762}
+    m_TransformParent: {fileID: 1101375030178928419}
     m_Modifications:
     - target: {fileID: 3424783007255620911, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
       propertyPath: m_Pivot.x
@@ -1575,7 +1632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3424783007255620911, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3424783007255620911, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1643,11 +1700,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3424783007255620911, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 185
+      value: -4.999954
       objectReference: {fileID: 0}
     - target: {fileID: 3424783007255620911, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -165
+      value: -11.329742
       objectReference: {fileID: 0}
     - target: {fileID: 3424783007255620911, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1661,29 +1718,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3845947489442349131, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
-      propertyPath: m_fontSize
-      value: 16.7
-      objectReference: {fileID: 0}
     - target: {fileID: 6484148457837245327, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
       propertyPath: UIControl
       value: 
       objectReference: {fileID: 735744080}
     - target: {fileID: 6946916944800943357, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
       propertyPath: m_Name
-      value: SubsettingControlPanal
+      value: ControlPanal
       objectReference: {fileID: 0}
     - target: {fileID: 6946916944800943357, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7979968412156189653, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
-      propertyPath: m_fontSize
-      value: 16.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8590646090684788544, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
-      propertyPath: m_fontSize
-      value: 16.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9127dc24d9a95c44986b2a7a0204c52, type: 3}
@@ -1702,7 +1747,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 8612969728585729192}
+    m_TransformParent: {fileID: 1101375030178928419}
     m_Modifications:
     - target: {fileID: 330739197625889136, guid: 474243cf2f2f7b048a953d04f8a14be1, type: 3}
       propertyPath: m_Pivot.x
@@ -1714,7 +1759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 330739197625889136, guid: 474243cf2f2f7b048a953d04f8a14be1, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 330739197625889136, guid: 474243cf2f2f7b048a953d04f8a14be1, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1782,11 +1827,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 330739197625889136, guid: 474243cf2f2f7b048a953d04f8a14be1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -185
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 330739197625889136, guid: 474243cf2f2f7b048a953d04f8a14be1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -165
+      value: -11.329742
       objectReference: {fileID: 0}
     - target: {fileID: 330739197625889136, guid: 474243cf2f2f7b048a953d04f8a14be1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1802,7 +1847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 569758317171685668, guid: 474243cf2f2f7b048a953d04f8a14be1, type: 3}
       propertyPath: m_Name
-      value: SubsettingPrivacyPanal
+      value: PrivacyPanal
       objectReference: {fileID: 0}
     - target: {fileID: 569758317171685668, guid: 474243cf2f2f7b048a953d04f8a14be1, type: 3}
       propertyPath: m_IsActive
@@ -1825,7 +1870,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 4835050564296741858}
+    m_TransformParent: {fileID: 1101375030178928419}
     m_Modifications:
     - target: {fileID: 5112264625026119885, guid: 13db01c905e36d5418e360944600bc87, type: 3}
       propertyPath: m_Pivot.x
@@ -1837,7 +1882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5112264625026119885, guid: 13db01c905e36d5418e360944600bc87, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5112264625026119885, guid: 13db01c905e36d5418e360944600bc87, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1905,11 +1950,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5112264625026119885, guid: 13db01c905e36d5418e360944600bc87, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 60
+      value: -6.4999924
       objectReference: {fileID: 0}
     - target: {fileID: 5112264625026119885, guid: 13db01c905e36d5418e360944600bc87, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -165
+      value: -11.329742
       objectReference: {fileID: 0}
     - target: {fileID: 5112264625026119885, guid: 13db01c905e36d5418e360944600bc87, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1925,7 +1970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5112264625026119886, guid: 13db01c905e36d5418e360944600bc87, type: 3}
       propertyPath: m_Name
-      value: SubsettingLanguagePanal
+      value: LanguagePanal
       objectReference: {fileID: 0}
     - target: {fileID: 5112264625026119886, guid: 13db01c905e36d5418e360944600bc87, type: 3}
       propertyPath: m_IsActive
@@ -1937,14 +1982,14 @@ PrefabInstance:
       objectReference: {fileID: 735744080}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13db01c905e36d5418e360944600bc87, type: 3}
---- !u!224 &1014724299975957034 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5112264625026119885, guid: 13db01c905e36d5418e360944600bc87, type: 3}
-  m_PrefabInstance: {fileID: 5253290398515471079}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1014724299975957033 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5112264625026119886, guid: 13db01c905e36d5418e360944600bc87, type: 3}
+  m_PrefabInstance: {fileID: 5253290398515471079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1014724299975957034 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5112264625026119885, guid: 13db01c905e36d5418e360944600bc87, type: 3}
   m_PrefabInstance: {fileID: 5253290398515471079}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7449131510195927378
@@ -1952,7 +1997,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1757235417704220450}
+    m_TransformParent: {fileID: 1101375030178928419}
     m_Modifications:
     - target: {fileID: 2701038513029595468, guid: fe9a8763929c11a459bd966b9da6e2c5, type: 3}
       propertyPath: UIControl
@@ -1980,7 +2025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971345283186987738, guid: fe9a8763929c11a459bd966b9da6e2c5, type: 3}
       propertyPath: m_Name
-      value: SubsettingGraphicPanal
+      value: GraphicPanal
       objectReference: {fileID: 0}
     - target: {fileID: 6971345283186987738, guid: fe9a8763929c11a459bd966b9da6e2c5, type: 3}
       propertyPath: m_IsActive
@@ -1996,7 +2041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971345283186987739, guid: fe9a8763929c11a459bd966b9da6e2c5, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6971345283186987739, guid: fe9a8763929c11a459bd966b9da6e2c5, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2064,11 +2109,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971345283186987739, guid: fe9a8763929c11a459bd966b9da6e2c5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -60
+      value: -3.4999695
       objectReference: {fileID: 0}
     - target: {fileID: 6971345283186987739, guid: fe9a8763929c11a459bd966b9da6e2c5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -165
+      value: -11.329742
       objectReference: {fileID: 0}
     - target: {fileID: 6971345283186987739, guid: fe9a8763929c11a459bd966b9da6e2c5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
